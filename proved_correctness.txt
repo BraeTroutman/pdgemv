@@ -1,0 +1,70 @@
+[troupb18@comp-24-5 pdgemv]$ bash prove_correctness.bash 
+**************************************************************
+Multiplying 6 x 6 matrix with 1 x 1 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 2.8609e-05,2.225e-06,1.997e-06,2.923e-06,2.1434e-05
+**************************************************************
+Multiplying 6 x 6 matrix with 2 x 1 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 2.6216e-05,3.79e-06,7.369e-06,7.698e-06,7.325e-06
+**************************************************************
+Multiplying 6 x 6 matrix with 1 x 2 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 4.0908e-05,6.7e-06,6.084e-06,1.4923e-05,1.3165e-05
+**************************************************************
+Multiplying 6 x 6 matrix with 3 x 2 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 8.1781e-05,5.347e-06,4.098e-05,2.3684e-05,1.1721e-05
+**************************************************************
+Multiplying 6 x 6 matrix with 2 x 3 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 8.9513e-05,3.875e-06,4.6506e-05,2.8439e-05,1.0653e-05
+**************************************************************
+Multiplying 100 x 100 matrix with 1 x 1 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 9.356e-05,2.991e-06,4.0012e-05,3.55e-06,4.6973e-05
+**************************************************************
+Multiplying 100 x 100 matrix with 2 x 1 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 5.6766e-05,1.3943e-05,2.3816e-05,7.002e-06,1.1969e-05
+**************************************************************
+Multiplying 100 x 100 matrix with 1 x 2 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 6.1199e-05,3.914e-06,2.2797e-05,1.9731e-05,1.4724e-05
+**************************************************************
+Multiplying 100 x 100 matrix with 5 x 2 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 0.00010796,2.3906e-05,3.7111e-05,1.7365e-05,2.9532e-05
+**************************************************************
+Multiplying 100 x 100 matrix with 2 x 5 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 8.9477e-05,4.059e-06,4.3971e-05,1.3472e-05,2.7929e-05
+**************************************************************
+Multiplying 100 x 100 matrix with 1 x 10 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 9.4587e-05,3.061e-06,4.1124e-05,2.2472e-05,2.7876e-05
+**************************************************************
+Multiplying 100 x 100 matrix with 10 x 1 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 7.5783e-05,2.0153e-05,4.0704e-05,2.442e-06,1.2438e-05
+**************************************************************
+Multiplying 1000 x 1000 matrix with 1 x 1 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 0.003596,7.452e-06,0.00354698,5.342e-06,3.6197e-05
+**************************************************************
+Multiplying 1000 x 1000 matrix with 20 x 1 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 0.000317695,5.8818e-05,0.000228809,2.474e-06,2.755e-05
+**************************************************************
+Multiplying 1000 x 1000 matrix with 1 x 20 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 0.000400458,1.988e-06,0.000244587,9.6017e-05,5.7823e-05
+**************************************************************
+Multiplying 1000 x 1000 matrix with 5 x 4 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 0.000360127,2.5041e-05,0.000254011,3.4064e-05,4.697e-05
+**************************************************************
+Multiplying 1000 x 1000 matrix with 4 x 5 processor grid
+all processes satisfy ylocal == xlocal assertion
+times: 0.000352476,1.4883e-05,0.00026563,4.0238e-05,3.1685e-05
+		cout << success << endl;
